@@ -1,0 +1,44 @@
+<?php
+// PHP program to convert an class object 
+// to object of another class
+  
+// Original class
+class Geeks1 {
+      
+    var $a = 'geeksforgeeks';
+      
+    function print_geeksforgeeks() {
+        print('geeksforgeeks');
+    }
+}
+  
+// Final class
+class Geeks2 {
+      
+    /* Empty abstract class */
+}
+  
+// Function to convert class of given object
+function convertObjectClass($object, $final_class) {
+    return unserialize(sprintf(
+        'O:%d:"%s"%s',
+        strlen($final_class),
+        $final_class,
+        strstr(strstr(serialize($object), '"'), ':')
+    ));
+}
+  
+// Initializing an object of class Geeks2
+$object1 = new Geeks1();
+  
+// Printing original object of class Geeks1
+print_r($object1);
+  
+// Converting an object of class Geeks1
+// into an object of class Geeks2
+$object1 = convertObjectClass($object1, 'Geeks2');
+  
+// Printing object of class Geeks2
+print_r($object1);
+  
+?>
