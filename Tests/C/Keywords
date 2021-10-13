@@ -1,0 +1,108 @@
+# Code non compilable pour tester les keywords de C.
+
+char alphabet;
+const int a = 5;
+short int smallInteger;
+long int bigInteger;
+signed int normalInteger;
+unsigned int positiveInteger;
+float number;
+double longNumber;
+
+
+auto int var1;
+
+
+if (i == 1)
+   printf("i is 1.")
+else
+   printf("i is not 1.")
+
+
+for (i=1;i<=10;++i){
+   if (i==3)
+   continue;
+   if (i==7)
+   break;
+   if (i==9)
+   goto error;
+   printf("%d ",i);
+} 
+error:
+    printf("Error, count cannot be 9.");
+
+
+switch(expression)
+{
+    case '1':
+    break;
+    case '5':
+    break;
+    default:
+}
+
+
+int i;
+do 
+{
+   printf("%d ",i);
+   i++;
+}
+while (i<10)
+
+
+enum suit
+{
+    hearts;
+    spades;
+    clubs;
+    diamonds;
+};
+
+
+int func() {
+    int b = 5;
+    return b;
+}
+
+
+#include <stdio.h>
+int main()
+{
+    printf("%u bytes.",sizeof(char));
+}
+
+
+register int var1;
+
+
+static int var;
+
+
+struct student{
+    char name[80];
+     float marks;
+     int age;
+}s1, s2;
+
+
+typedef float kg;
+kg bear, tiger;
+
+
+union student {
+    char name[80];
+    float marks;
+    int age;
+}
+
+
+void testFunction(int a) {}
+
+
+const volatile number
+
+
+malloc
+free
+

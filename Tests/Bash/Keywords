@@ -1,0 +1,44 @@
+!
+coproc
+else
+function
+then
+{
+[[
+do
+esac
+if
+time
+}
+]]
+done
+fi
+in
+until
+case
+elif
+for
+select
+while
+
+ls -a
+echo
+touch
+mkdir
+grep
+man
+pwd
+cd
+mv
+rmdir
+locate
+less
+compgen
+> - redirect stdout
+cat
+| - pipe
+head
+tail
+chmod
+exit
+
