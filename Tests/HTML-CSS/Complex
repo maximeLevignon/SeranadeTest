@@ -22,3 +22,66 @@
     <p class="green">This is a green color paragraph</p>  
   </body>  
 </html> 
+
+____________________________________________________________
+
+Commentaire :add tag fonctionne bien
+             Melange html css peu pratique puisqu'il faut changer le langage detecté en plein milieu
+	     Attribut css mal detecte ==> contourné par l'usage du type
+
+___________________________________________________________
+add tag html
+add tag head
+add tag style
+
+add ruleset body
+background-color is lavender (type background-dash color colon lavender semicolon
+text-align is center
+
+
+go to line 6
+
+add ruleset h2
+font-style is italic
+font-size is 30 px
+color is f zero eight  zero eight zero
+
+add ruleset dot blue
+color is blue
+
+add ruleset dot red
+color is red
+
+add ruleset dot green
+color is green
+
+(go to after head)
+
+add tag body
+
+add tag h2
+
+type Learning HTML with internal CSS
+
+add tag p
+add attribute class equals blue
+type This is a blue color paragraph
+
+
+add tag p
+add attribute class equals blue
+type This is a blue color paragraph
+
+
+add tag p
+add attribute class equals red
+type This is a red color paragraph
+
+
+add tag p
+add attribute class equals green
+type This is a green color paragraph
+
+
+<style></style>
+

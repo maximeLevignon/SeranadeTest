@@ -42,3 +42,20 @@ $object1 = convertObjectClass($object1, 'Geeks2');
 print_r($object1);
   
 ?>
+
+____________________
+
+Commentaire
+
+PHP n'est pas pris en compte par Serenade il n'y a donc peu d'interet a le tester
+
+____________________
+____________
+
+commencé a 15h49
+arreté a 15h57
+
+
+type lesser than question mark php
+type slash slash PHP program to convert an class object 
+type slash slash to object of another class
