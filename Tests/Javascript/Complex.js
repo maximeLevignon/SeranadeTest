@@ -17,11 +17,23 @@ document.addEventListener("DOMContentLoaded", functions(event)) {
          if (confirmLeave == true) {
 
            document.location.href = selectedUrl;
+         }
 
+         else {
+           return false;
+           }
+           }
 
-  )
+  });
 </script>
-</!DOCTYPE html>
+
+<form name="navForm" action="{action page}">
+  <select name="jumpmenu" id="jumpmenu">
+    <option value="http://www.zappyhost.com">ZappyHost</option>
+    <option value="http://www.html.am">HTML</option>
+    <option value="http://www.database.guide">Database Guide</option>
+  </select>
+</form>
 */
 
 /* Commandes
@@ -56,12 +68,30 @@ document.addEventListener("DOMContentLoaded", functions(event)) {
  insert if parens
     insert confirmLeave equals equals true
     insert brace
-
+ insert right brace
+ insert tag form
+    insert name equals quotes navForm space
+    insert action equals quotes braces action page
+ insert tag select
+    insert name equals quotes jumpmenu
+    insert id equals quotes jumpmenu
+ insert tag option
+    type capital jump to dot dot dot
+ insert tag option
+    insert value equals quotes
+        type http colon slash slash www.zappyhost.com
+        type capital ZappyHost
+ copy line 32
+ paste paste
+ line 33 delete zappyhost.com type html.am (pareil avec ZappyHost)
+ line 34 (pareil avec database.guide)
 
  */
 
 /* Commentaires
     - si on change de ligne en ayant laissé des espaces, compliqué de revenir au bout de la ligne
+    - possible de faire du copier coller avec copy/paste
+    - navigation (left/right/up/down)
  */
 
 /*
