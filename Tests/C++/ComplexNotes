@@ -1,0 +1,47 @@
+insert hash include i o iostream
+delete underscore
+copy line
+paste
+change io to f
+paste
+change iostream to s t d i o dot h
+add using namespace s t d
+add function main
+add char filename brackets thirty coma c h 
+add one word f stream f p s coma f p t
+add one word c out quote enter the name of file colon
+add one word gets of filename
+add f p s dot open of filename coma one word fstream colon colon in
+add if not fps
+add one word left shift quotes backslash n error occured coma opening source files to read dot
+add return zero
+copy line 10 to 15
+go to line 15
+change f p t to f p s
+change filename to quotes t m p dot t x t
+change in to out
+next line
+change s to t
+next line
+change opening the source file to read to opening slash creating the t m p file
+add while f p s right shift one word noskipws right shift c h
+delete underscore
+add c h equals c h plus one hundred
+add fpt left shift c h
+next line
+add f p s dot close of
+add f p t dot close of
+copy line 11 to 29
+paste
+go to line 27
+change in to out
+go to line 33
+change out to in
+delete line 41
+go to line 44
+add one word c out left shift quotes backslash n file single quote
+insert leftshift filename leftshift
+insert quotes single quote encrypted successfully exclam
+add one word cout left shift one word end l
+add return 0
+
