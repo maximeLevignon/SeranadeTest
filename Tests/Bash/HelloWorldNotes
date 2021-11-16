@@ -1,0 +1,11 @@
+
+"insert echo double quotes hello world"
+
+propose :
+1 - echo "hello world"
+2 - echo "Hello World"
+
+3 secondes environ.
+
+
+

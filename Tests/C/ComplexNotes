@@ -1,0 +1,60 @@
+insert hash include angle brackets s t d i o dot h
+newline
+insert hash include angle brackets s t d l i b dot h 
+newline
+add struct course
+add int marks
+add char subject brackets thirty
+down 
+newline two times
+add function int main
+add struct
+insert course star ptr
+add int no records (three)
+add print f of quotes enter the number of records colon space
+add scan
+insert f
+delete space
+right
+insert of quotes percent d coma 
+left
+insert ampersand no records
+newline two times
+add comment memory allocation for no records structure
+add ptr equals of struct course star
+insert malloc of
+left
+insert no records star
+insert s i z e o f 
+insert of struct of course
+go to end of line
+new line
+add for int i equals zero semicolon i less than no records semi colon plus plus i
+copy line 11
+paste
+change Enter the number of records colon to enter subject and marks colon backslash n
+copy line 12
+paste
+change percent d to percent s space percent d
+delete ampersand no records
+insert of p t r plus i arrow subject
+insert coma of p t r plus i arrow marks
+insert s
+delete underscore
+newline two times
+copy line 17
+paste
+change enter subject and marks colon to displaying information
+copy line 16
+paste
+newline
+close braces
+up
+copy line 18
+paste
+change scanf to printf
+change percent d to backslash t percent d backslash n
+down
+newline
+add free of p t r
+add return 0

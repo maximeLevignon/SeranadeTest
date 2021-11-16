@@ -1,0 +1,43 @@
+#include<iostream>
+#include<fstream>
+#include<stdio.h>
+using namespace std;
+int main(){
+    char fileName[30], ch;
+    fstream fps, fpt;
+    gets(fileName);
+    fps.open(fileName, fstream::in);
+    if(!fps){
+        cout<<"\nError occured, opening the source file (to read)!";
+        return 0;
+    }
+    fpt.open("tmp.txt", fstream::out);
+    if(!fpt){
+        cout<<"\nError Occured, opening/creating the tmp file!";
+        return 0;
+    }
+    while(fps>>noskipws>>ch){
+        ch = ch+100;
+        fpt<<ch;
+    }
+    fps.close();
+    fpt.close();
+    fps.open(fileName, fstream::out);
+    if(!fps){
+        cout<<"\nError occured, opening the source file (to write)!";
+        return 0;
+    }
+    fpt.open("tmp.txt", fstream::in);
+    if(!fpt){
+        cout<<"\nError Occured, openingthe tmp file!";
+        return 0;
+    }
+    while(fps>>noskipws>>ch){
+        fpt<<ch;
+    }
+    fps.close();
+    fpt.close();
+    cout<<"\nFile'"<<fileName<<"' encrypted successfully!";
+    cout<<endl;
+    return 0;
+}
